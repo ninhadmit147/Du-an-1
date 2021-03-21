@@ -42,9 +42,9 @@
             </nav>
             <!-- form search -->
             <form action="" method="post">
-                <div class="flex">
-                    <input class="bg-gray-200 focus:bg-white" type="search" name="search" size="45" placeholder="Tìm kiếm" id="">
-                    <button class="" type="submit"><svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div class="flex bg-white mr-1 rounded">
+                    <input class="bg-white focus:bg-white rounded" type="search" name="search" size="45" placeholder="Tìm kiếm" id="">
+                    <button class="text-black" type="submit"><svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                         </svg></button>
                 </div>
@@ -159,6 +159,20 @@
                         <p class="font-bold">Kích thước:
                         <p></p>
                         </p>
+                        <br>
+                        <a class="hover:underline no-underline text-white" href="#">
+                            <div class="bg-yellow-500 text-center rounded-md">
+                                <h2 class="font-bold">ĐẶT HÀNG</h2>
+                                <P>Giao hàng miễn phí tận nơi</P>
+                            </div>
+                        </a>
+                        <br>
+                        <a class="hover:underline no-underline text-white" href="#">
+                            <div class="bg-blue-500 text-center rounded-md">
+                                <h2 class="font-bold">LIÊN HỆ</h2>
+                                <P>Tư vấn trực tiếp về sản phẩm</P>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <!-- policy -->
