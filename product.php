@@ -11,18 +11,17 @@
 
 <body>
     <!-- header -->
-    <div class=" text-white bg-yellow-800 h-10">
+    <div class=" text-white bg-yellow-800 h-auto">
         <div class="container mx-auto flex justify-between">
-
-            <a class="ml-5 my-2" href="#">
-                logo
+            <a class="ml-5 my-2" href="../Du_an_1/">
+                <img src="images/logo.png" width="200" alt="">
             </a>
-            <div class="flex my-2">
+            <div class="flex my-auto">
                 <a href="./login/login.php"><svg class="w-7 h-7 mx-3 transition delay-150 duration-300 ease-in-out transform hover:scale-150 bg-amber-600 text-white font-semibold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
                     </svg></a>
                 |
-                <a href="#"><svg class="w-7 h-7 mx-3 transition delay-150 duration-300 ease-in-out transform hover:scale-150 bg-amber-600 text-white font-semibold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <a href="order.php"><svg class="w-7 h-7 mx-3 transition delay-150 duration-300 ease-in-out transform hover:scale-150 bg-amber-600 text-white font-semibold" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg></a>
             </div>
@@ -52,6 +51,14 @@
         </div>
     </div>
     <!-- body -->
+    <div class="container mx-auto my-4">
+        <div class="flex"><a class="flex" href="../Du_an_1/"><svg class="w-5 h-5 my-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                </svg>TRANG CHỦ</a>
+            <p class="mx-3">>></p>
+            <a href="">Tên sản phẩm</a>
+        </div>
+    </div>
     <div class="grid grid-cols-12 gap-4  my-5 container mx-auto">
         <!-- categories -->
         <div class="col-span-3">
@@ -92,12 +99,6 @@
         </div>
         <!-- products -->
         <div class="col-span-9">
-            <div class="flex"><a class="flex" href="../Du_an_1/"><svg class="w-5 h-5 my-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                        <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
-                    </svg>TRANG CHỦ</a>
-                <p class="mx-3">>></p>
-                <a href="">Tên sản phẩm</a>
-            </div>
             <div class="flex my-5">
                 <img width="350" height="680" src="images/tuonggo607.jpeg" alt="">
                 <div class="mx-3">
@@ -123,7 +124,7 @@
                         <br>
                         <a class="hover:underline no-underline text-white" href="#">
                             <div class="bg-yellow-500 text-center rounded-md transition delay-150 duration-300 ease-in-out transform hover:scale-105 bg-amber-600 text-white font-semibold px-6 py-3">
-                                <h2 class="font-bold">ĐẶT HÀNG</h2>
+                                <h2 class="font-bold">THÊM VÀO GIỎ HÀNG</h2>
                                 <P>Giao hàng miễn phí tận nơi</P>
                             </div>
                         </a>
