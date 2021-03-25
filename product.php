@@ -226,25 +226,56 @@
     <!-- footer -->
     <div class="text-white bg-yellow-600">
         <div class="container mx-auto grid grid-cols-12 gap-6">
-            <div class="col-span-3 my-5">
-                <h2>THÔNG TIN LIÊN HỆ</h2>
+            <div class="col-span-4 my-5">
+                <h2 class="text-lg">THÔNG TIN LIÊN HỆ</h2>
                 <br>
-                <a href="">Link</a>
+                <a class="flex" href="#">
+                    <svg class="w-18 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                    </svg>
+                    <p class="mx-5">17 Ng. 85 P. Định Công Thượng, Định Công, Hoàng Mai, Hà Nội, Việt Nam</p>
+                </a>
+                <br>
+                <a class="flex" href="">
+                    <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    <p class="mx-5 my-auto">0363.480.678</p>
+                </a>
+                <br>
+                <a class="flex" href="">
+                    <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <p class="mx-5 my-auto">0363.480.678</p>
+                </a>
             </div>
-            <div class="col-span-3 my-5">
-                <h2>HƯỚNG DẪN</h2>
+            <div class="col-span-4 my-5">
+                <h2 class="text-lg">THANH TOÁN</h2>
                 <br>
-                <a href="">Link</a>
+                <a class="flex" href="">
+                    <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+                    </svg>
+                    <p class="mx-3 my-auto">Thanh toán qua thẻ tín dụng</p>
+                </a>
+                <br>
+                <a class="flex" href="">
+                    <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path fill="#fff" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" />
+                    </svg>
+                    <p class="mx-3 my-auto">Thanh toán khi bằng tiền mặt khi nhận hàng</p>
+                </a>
             </div>
-            <div class="col-span-3 my-5">
-                <h2>THANH TOÁN</h2>
+            <div class="col-span-4 my-5">
+                <h2 class="text-lg">LIÊN KẾT</h2>
                 <br>
-                <a href="">Link</a>
-            </div>
-            <div class="col-span-3 my-5">
-                <h2>LIÊN KẾT</h2>
-                <br>
-                <a href="">Link</a>
+                <div class="flex">
+                    <a href=""><img class="w-10 h-10" src="./images/1200px-Facebook_icon.svg.png" alt=""></a>
+                    <a href=""><img class="w-10 h-10 ml-5" src="./images/1d07c2bacaefc123ddc782e6288ddc41.png" alt=""></a>
+                    <a href=""><img class="w-10 h-10 mx-5" src="./images/600px-Instagram_logo_2016.svg.png" alt=""></a>
+                </div>
             </div>
 
         </div>
