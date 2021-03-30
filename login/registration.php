@@ -25,6 +25,8 @@
                 <input placeholder="Nhập lại mật khẩu" type="text" class="mx-auto mt-5 block appearance-none placeholder-gray-800 border border-green-800 rounded-md w-64 py-3 px-4 text-gray-700 leading-5 focus:outline-none focus:ring-2 focus:ring-green-800">
                 <input placeholder="Email" type="text" class="mx-auto mt-5 block appearance-none placeholder-gray-800 border border-green-800 rounded-md w-64 py-3 px-4 text-gray-700 leading-5 focus:outline-none focus:ring-2 focus:ring-green-800">
                 <input placeholder="Số điện thoại" type="tel" class="mx-auto mt-5 block appearance-none placeholder-gray-800 border border-green-800 rounded-md w-64 py-3 px-4 text-gray-700 leading-5 focus:outline-none focus:ring-2 focus:ring-green-800">
+                <label class="text-gray-300 font-bold" for="">Avatar</label>
+                <input type="file" id="imageUpload" placeholder="Avatar" class="mx-auto mt-5 block appearance-none placeholder-gray-800 border border-green-800 rounded-md w-64 py-3 px-4 text-gray-50 leading-5 focus:outline-none focus:ring-2 focus:ring-green-800" name="" id="">
                 <button type="submit" class="mx-auto my-5 w-40 h-12 rounded-md bg-green-700 text-gray-300" name="btnLogin">ĐĂNG KÝ NGAY</button>
             </form>
             <div class="flex justify-between mx-5 text-gray-300">

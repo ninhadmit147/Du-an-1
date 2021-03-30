@@ -188,6 +188,27 @@
             </div>
         </div>
     </div>
+    <!-- comment -->
+    <div class="container mx-auto w-full bg-gray-50 my-5">
+        <h2 class="font-bold">Bình luận:</h2>
+        <form action="" method="post">
+            <textarea name="" id="" cols="30" class="w-full border rounded-md border-gray-600" placeholder="Nội dung bình luận" rows="5"></textarea>
+            <button class="w-36 bg-yellow-600 rounded-md h-12 font-bold text-gray-100" type="submit">Phản hồi</button>
+        </form>
+        <br>
+        <!-- user comment -->
+        <div class="">
+            <h2 class="font-bold">Tất cả bình luận</h2>
+            <br>
+            <div class="flex bg-gray-100 p-5 rounded-lg">
+                <img class="rounded-full h-20 w-20" src="images/ba_khanh.jpg" alt="">
+                <div class="bg-gray-300 w-full px-5 rounded-sm ml-3">
+                    <h2 class="font-bold">Bá Khảnh</h2>
+                    <p>Ảo thật đấy</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- related products -->
     <div class="container mx-auto">
         <h2 class="font-bold">SẢN PHẨM LIÊN QUAN</h2>
